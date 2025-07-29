@@ -26,9 +26,6 @@ This is a personal coding template repository that establishes standards for fut
 - Template repository for establishing consistent coding practices
 - Foundation for future project development
 
-## Repository Overview
-
-This is a minimal template repository named "claude-code-template" described as a "coding template with standard of myself". The repository is currently in its initial state with only a basic README.md file.
 
 ## Development Setup
 
@@ -52,12 +49,9 @@ Use the following tools for automatic code formatting:
 - **Code Formatting**: Use `black` for automatic code formatting and `isort` for import sorting (configuration in pyproject.toml)
 - **Documentation**: Use Google-style docstrings for all functions and classes
 - **Dependencies**: Use uv for dependency management and uv venv for virtual environment creation and management
-- **File Organization**: Structure directories and files consistently
-- **Testing**: Establish testing patterns and coverage requirements
 - **Git Workflow**: 
   - Use Git Flow branching model (master/dev/feat/release/hotfix)
   - Branch naming: `feat/{feature_name}` for new features
   - Create merge requests from feat branches to dev branch
   - Require code review for all merge requests
   - Use semantic versioning for releases (v1.0.0)
-- **Security**: Implement authentication patterns and input validation
