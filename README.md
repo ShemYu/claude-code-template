@@ -26,7 +26,7 @@ uv tool install cookiecutter
 ### Create a new project
 
 ```bash
-cookiecutter https://github.com/yourusername/claude-code-template
+cookiecutter https://github.com/ShemYu/claude-code-template.git
 ```
 
 Or from local directory:
